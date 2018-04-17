@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcf5e5"
+    tools:context="com.example.hemanthkumar.design.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="20dp">
+    <ImageView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:background="@drawable/miralogo"/>
+</LinearLayout>
+    <EditText
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#b2b7b6"
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Username"
+        android:textAlignment="viewStart"
+        android:textColorHint="#000"
+        android:textSize="15dp"
+        android:drawablePadding="15dp"
+        android:drawableStart="@drawable/email"/>
+
+    <EditText
+        android:id="@+id/tv_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#b2b7b6"
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Password"
+        android:textAlignment="viewStart"
+        android:drawablePadding="15dp"
+        android:textColorHint="#000"
+        android:textSize="15dp"
+        android:drawableStart="@drawable/password"
+      />
+    <Button
+        android:id="@+id/tv_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape"
+        android:text="LOG IN"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="italic"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_forgot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Forgot password?"
+        android:textColor="#000"
+        android:textSize="12dp"
+        />
+
+
+</LinearLayout>
